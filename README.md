@@ -3,13 +3,11 @@
 This is a real-time Mandelbox and distance-estimator fractal explorer built with
 SDL2, OpenGL, and GLSL. It extends Jan Kadlec's Boxplorer 1.02 with Catmull-Rom
 keyframe splines, stereoscopic and panoramic capture pipelines, automated sequence
-rendering, and a parameter editor powered by AntTweakBar. This README consolidates
-the notes that were previously spread across `README`, `README-1.02`, `HISTORY`, and
-the individual configuration folders.
+rendering, and a parameter editor powered by AntTweakBar. 
 
 ### Demo
 
-![Boxplorer2 screenshot](Demo1.jpg)
+![3dfractals screenshot](Demo1.jpg)
 
 ## Highlights
 
@@ -64,13 +62,13 @@ For historical parity the repository ships `Makefile.linux`, `Makefile.osx`, and
 and run `make` or `nmake`. These scripts expect SDL2 development headers to be present
 system-wide.
 
-## Launching Boxplorer2
+## Launching the App
 
 ```bash
-./boxplorer2 [config.cfg | path/to/config_dir] [options...]
+./3dfractals [config.cfg | path/to/config_dir] [options...]
 ```
 
-- If no argument is provided Boxplorer2 loads `cfgs/rrrola/default.cfg`. On Windows a file
+- If no argument is provided the app loads `cfgs/rrrola/default.cfg`. On Windows a file
   dialog is offered as a fallback.
 - A configuration directory (for example `cfgs/rrrola/`) keeps the `.cfg` plus its `.cfg.data`
   folder, which stores per-scene shaders and rendered frames.
@@ -120,7 +118,7 @@ system-wide.
 - `--lifeform=pattern.rle` - seed the backbuffer with a Conway's Game of Life pattern (plain text
   or RLE format) before rendering.
 
-Options can be combined, for example `boxplorer2 cfgs/mymovie/ --render --speed --xeyed`.
+Options can be combined, for example `3dfractals cfgs/mymovie/ --render --speed --xeyed`.
 
 ## Controls
 
@@ -156,10 +154,10 @@ Options can be combined, for example `boxplorer2 cfgs/mymovie/ --render --speed 
 
 ## Rendering a Movie
 
-1. Explore a scene (for example `boxplorer2 cfgs/rrrola/`) and add keyframes with `Space`.
+1. Explore a scene (for example `3dfractals cfgs/rrrola/`) and add keyframes with `Space`.
 2. Exit, then restart with `--render` plus `--speed` or `--time`:
    ```bash
-   ./boxplorer2 cfgs/mymovie/ --render --speed --sidebyside
+   ./3dfractals cfgs/mymovie/ --render --speed --sidebyside
    ```
 3. Frames are written as TGA files into the scene's `.cfg.data` directory. Use the batch scripts
    in `utils/` (for example `encode-x264.bat`) or your tool of choice to assemble them into a video.
@@ -190,16 +188,6 @@ content, include `--cubes`, `--spherical`, or `--dome`.
 - Automatic SDL2 fetching requires network access; offline builds should pre-install SDL2.
 - Depth-of-field, Oculus, or Sixense features compile only when the respective SDKs are available.
 - When experimenting with embedded shaders, re-run `prepare_default_shaders.bat` to update header copies.
-
-## History
-
-See `HISTORY` for the full changelog. Highlights:
-
-- **v2.00 (2011-01-23)** - stereo rendering, z-buffered splining, keyframe editing UI, AntTweakBar,
-  animation renderer, new fractal presets.
-- **v1.02 (2010-07-20)** - config files, screenshots and parameter snapshots, fullscreen switching,
-  improved controls, smarter shader shrinking, Linux support.
-- **v1.00 (2010-06-20)** - initial Mandelbox explorer release.
 
 ## License 
 
