@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+﻿cmake_minimum_required(VERSION 3.10)
 project(BoxPlorer2 LANGUAGES CXX C)
 
 # Set C++ standard
@@ -164,7 +164,7 @@ endif()
 
 # BoxPlorer2 core source files
 set(BOXPLORER2_SOURCES
-    BoxPlorer2.cpp
+    main.cpp
     Interpolate.cpp
     Uniforms.cpp
     Camera.cpp

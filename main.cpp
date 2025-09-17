@@ -1,4 +1,4 @@
-#include <assert.h>
+﻿#include <assert.h>
 #include <ctype.h>
 #include <math.h>
 #include <stdio.h>
@@ -18,8 +18,15 @@
 
 #else // _WIN32
 
+
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+#include <windows.h>
 #include <CommDlg.h>
-#include <winsock2.h>
 
 #pragma warning(disable : 4996) // unsafe function
 #pragma warning(disable : 4244) // double / float conversion
@@ -3710,3 +3717,4 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+
