@@ -40,7 +40,7 @@
 // #pragma comment(lib, "comdlg32.lib")
 
 #ifdef HAVE_OCULUS_SDK
-#include "oculus_sdk4.h"
+#include "OculusSdk4.h"
 #endif
 
 #if defined(HYDRA)
@@ -70,15 +70,15 @@ using namespace std;
 
 #include <AntTweakBar.h>
 
-#include "shader_procs.h"
-#include "default_shaders.h"
+#include "ShaderProcs.h"
+#include "DefaultShaders.h"
 
 #include "TGA.h"
 
-#include "interpolate.h"
-#include "uniforms.h"
-#include "camera.h"
-#include "shader.h"
+#include "Interpolate.h"
+#include "Uniforms.h"
+#include "Camera.h"
+#include "Shader.h"
 
 #define DEFAULT_CONFIG_FILE "default.cfg"
 #define DEFAULT_CONFIG  "cfgs/rrrola/" DEFAULT_CONFIG_FILE
@@ -117,7 +117,7 @@ using namespace std;
 #undef min
 #endif
 
-#include "glsl.h"
+#include "Glsl.h"
 
 // Hackery to get the list of DE and COLORING funcs from the glsl.
 map<string, float (*)(GLSL::vec3)> DE_funcs;
@@ -593,7 +593,7 @@ float getFPS(void) {
 ////////////////////////////////////////////////////////////////
 // Current logical state of the program.
 
-#include "params.h"
+#include "Params.h"
 
 class Camera : public KeyFrame {
   public:

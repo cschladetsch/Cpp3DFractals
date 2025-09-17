@@ -20,7 +20,7 @@ using namespace std;
 #pragma warning(disable: 4800) // forcing value to bool
 #endif
 
-#include "glsl.h"
+#include "Glsl.h"
 #include "TGA.h"
 
 #define ST_NONE  // no stereocopy here

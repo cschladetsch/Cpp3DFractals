@@ -1,14 +1,14 @@
-#include "uniforms.h"
+#include "Uniforms.h"
 
 #include <iostream>
 #include <string>
 #include <sstream>
 
 #include <AntTweakBar.h>
-#include "camera.h"
+#include "Camera.h"
 
 #define GL_DECLARE_ONLY
-#include "shader_procs.h"
+#include "ShaderProcs.h"
 
 using namespace std;
 

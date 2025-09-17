@@ -1,4 +1,4 @@
-#include "camera.h"
+#include "Camera.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -7,7 +7,7 @@
 #include <iostream>
 #include <string>
 
-#include "interpolate.h"
+#include "Interpolate.h"
 
 using namespace std;
 

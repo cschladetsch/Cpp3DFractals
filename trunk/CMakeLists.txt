@@ -164,11 +164,11 @@ endif()
 
 # BoxPlorer2 core source files
 set(BOXPLORER2_SOURCES
-    boxplorer2.cpp
-    interpolate.cpp
-    uniforms.cpp
-    camera.cpp
-    shader.cpp
+    BoxPlorer2.cpp
+    Interpolate.cpp
+    Uniforms.cpp
+    Camera.cpp
+    Shader.cpp
 )
 
 # Check for Oculus SDK availability on Windows
@@ -181,7 +181,7 @@ if(WIN32)
 
     if(OCULUS_SDK_INCLUDE_DIR)
         add_compile_definitions(HAVE_OCULUS_SDK)
-        list(APPEND BOXPLORER2_SOURCES oculus_sdk4.cpp)
+        list(APPEND BOXPLORER2_SOURCES OculusSdk4.cpp)
         include_directories(${OCULUS_SDK_INCLUDE_DIR})
         message(STATUS "Oculus SDK found at: ${OCULUS_SDK_INCLUDE_DIR}")
     else()
@@ -198,17 +198,17 @@ target_link_libraries(boxplorer2 AntTweakBar ${OPENGL_LIBRARIES})
 
 # SDL2 test executable (only if SDL2 is available)
 if(SDL2_FOUND)
-    add_executable(sdl2-test sdl2-test.cpp)
+    add_executable(sdl2-test Sdl2Test.cpp)
 endif()
 
 # Shader shrink utility
-add_executable(shadershrink shadershrink.cpp)
+add_executable(shadershrink ShaderShrink.cpp)
 
 # Edit config utility
-add_executable(edit-cfg edit-cfg.cpp)
+add_executable(edit-cfg EditCfg.cpp)
 
 # GLSL utility
-add_executable(glsl glsl.cpp)
+add_executable(glsl Glsl.cpp)
 
 # Platform-specific linking
 if(WIN32)

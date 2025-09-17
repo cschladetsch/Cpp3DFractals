@@ -4,7 +4,7 @@
 #include <math.h>
 #include <float.h>
 
-#include "interpolate.h"
+#include "Interpolate.h"
 
 // Compute the dot product of two vectors.
 double dot(const double x[3], const double y[3]) {

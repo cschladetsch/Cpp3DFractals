@@ -1,7 +1,7 @@
-#include "shader.h"
+#include "Shader.h"
 
 #define GL_DECLARE_ONLY
-#include "shader_procs.h"
+#include "ShaderProcs.h"
 
 using namespace std;
 
