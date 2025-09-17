@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/240/trunk/cfgs/blend-menger-sphere
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/240/trunk/cfgs/blend-menger-sphere/vertex.glsl
+END
+blend-menger-sphere.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/240/trunk/cfgs/blend-menger-sphere/blend-menger-sphere.txt
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/240/trunk/cfgs/blend-menger-sphere/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/240/trunk/cfgs/blend-menger-sphere/fragment.glsl
+END

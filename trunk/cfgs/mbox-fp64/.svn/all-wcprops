@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/425/trunk/cfgs/mbox-fp64
+END
+dof_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/374/trunk/cfgs/mbox-fp64/dof_fragment.glsl
+END
+fxaa_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/364/trunk/cfgs/mbox-fp64/fxaa_vertex.glsl
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/232/trunk/cfgs/mbox-fp64/vertex.glsl
+END
+keyframe-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/425/trunk/cfgs/mbox-fp64/keyframe-0.cfg
+END
+fxaa_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/364/trunk/cfgs/mbox-fp64/fxaa_fragment.glsl
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/425/trunk/cfgs/mbox-fp64/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/425/trunk/cfgs/mbox-fp64/fragment.glsl
+END
+dof_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/364/trunk/cfgs/mbox-fp64/dof_vertex.glsl
+END
+fungus.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/425/trunk/cfgs/mbox-fp64/fungus.cfg
+END

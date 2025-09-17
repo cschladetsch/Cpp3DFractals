@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/SpaceJewels
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/SpaceJewels/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/SpaceJewels/fragment.glsl
+END
+background.tga
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/SpaceJewels/background.tga
+END

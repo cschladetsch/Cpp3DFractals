@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/425/trunk/include
+END
+effects_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/425/trunk/include/effects_vertex.glsl
+END
+fxaa_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/425/trunk/include/fxaa_vertex.glsl
+END
+gaussian_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/425/trunk/include/gaussian_fragment.glsl
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/425/trunk/include/vertex.glsl
+END
+effects_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/425/trunk/include/effects_fragment.glsl
+END
+fxaa_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/425/trunk/include/fxaa_fragment.glsl
+END
+dof_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/425/trunk/include/dof_vertex.glsl
+END
+gaussian_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/425/trunk/include/gaussian_vertex.glsl
+END
+setup.inc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/425/trunk/include/setup.inc
+END
+dof_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/425/trunk/include/dof_fragment.glsl
+END

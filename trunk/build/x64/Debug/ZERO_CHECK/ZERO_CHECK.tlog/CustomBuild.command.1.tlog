@@ -1,0 +1,10 @@
+^C:\USERS\CHRIS\LOCAL\REPOS\BOXPLORER2\TRUNK\BUILD\CMAKEFILES\5AB4A8F0D1C9A25A3E0613BA83057AA5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chris/local/repos/boxplorer2/trunk -BC:/Users/chris/local/repos/boxplorer2/trunk/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/chris/local/repos/boxplorer2/trunk/build/BoxPlorer2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

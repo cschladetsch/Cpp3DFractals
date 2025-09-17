@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data
+END
+ionized-2.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-2.cfg
+END
+keyframe-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-0.cfg
+END
+ionized-3.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-3.cfg
+END
+keyframe-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-1.cfg
+END
+ionized-4.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-4.cfg
+END
+keyframe-2.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-2.cfg
+END
+ionized-5.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-5.cfg
+END
+keyframe-3.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-3.cfg
+END
+ionized-6.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-6.cfg
+END
+keyframe-4.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-4.cfg
+END
+ionized-7.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-7.cfg
+END
+keyframe-5.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-5.cfg
+END
+ionized-8.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-8.cfg
+END
+keyframe-6.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-6.cfg
+END
+dof_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/367/trunk/cfgs/menger.cfg.data/dof_vertex.glsl
+END
+ionized-9.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-9.cfg
+END
+keyframe-7.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-7.cfg
+END
+keyframe-8.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-8.cfg
+END
+keyframe-9.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-9.cfg
+END
+fxaa_vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/367/trunk/cfgs/menger.cfg.data/fxaa_vertex.glsl
+END
+keyframe-10.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-10.cfg
+END
+keyframe-11.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-11.cfg
+END
+keyframe-12.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-12.cfg
+END
+keyframe-13.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-13.cfg
+END
+keyframe-14.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-14.cfg
+END
+keyframe-15.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-15.cfg
+END
+keyframe-16.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-16.cfg
+END
+keyframe-17.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/keyframe-17.cfg
+END
+fxaa_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/367/trunk/cfgs/menger.cfg.data/fxaa_fragment.glsl
+END
+pklein3.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein3.cfg
+END
+pklein4.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein4.cfg
+END
+combi-10.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-10.cfg
+END
+combi-11.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-11.cfg
+END
+combi-12.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-12.cfg
+END
+combi-13.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-13.cfg
+END
+background.tga
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/background.tga
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/fragment.glsl
+END
+mbox.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/mbox.cfg
+END
+ionized-10.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-10.cfg
+END
+ionized-11.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-11.cfg
+END
+ionized-12.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-12.cfg
+END
+ionized-13.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-13.cfg
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/default.cfg
+END
+combi-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-0.cfg
+END
+combi-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-1.cfg
+END
+combi-2.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-2.cfg
+END
+combi-3.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-3.cfg
+END
+combi-4.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-4.cfg
+END
+combi-5.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-5.cfg
+END
+combi-6.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-6.cfg
+END
+combi-7.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-7.cfg
+END
+dof_fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/372/trunk/cfgs/menger.cfg.data/dof_fragment.glsl
+END
+combi-8.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-8.cfg
+END
+combi-9.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/combi-9.cfg
+END
+pklein-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-0.cfg
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/173/trunk/cfgs/menger.cfg.data/vertex.glsl
+END
+pklein-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-1.cfg
+END
+pklein-2.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-2.cfg
+END
+pklein-3.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-3.cfg
+END
+pklein-4.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-4.cfg
+END
+pklein-5.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/pklein-5.cfg
+END
+ionized-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-0.cfg
+END
+ionized-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/menger.cfg.data/ionized-1.cfg
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/elevated
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/elevated/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/elevated/fragment.glsl
+END
+keyframe-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/elevated/keyframe-0.cfg
+END
+keyframe-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/elevated/keyframe-1.cfg
+END

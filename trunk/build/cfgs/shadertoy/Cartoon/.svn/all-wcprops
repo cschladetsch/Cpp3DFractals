@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/Cartoon
+END
+keyframe-0.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/Cartoon/keyframe-0.cfg
+END
+keyframe-1.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/Cartoon/keyframe-1.cfg
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/Cartoon/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/Cartoon/fragment.glsl
+END

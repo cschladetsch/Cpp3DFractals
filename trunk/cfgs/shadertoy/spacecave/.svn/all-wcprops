@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/spacecave
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/spacecave/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/spacecave/fragment.glsl
+END

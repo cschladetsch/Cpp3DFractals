@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/425/trunk/cfgs/icosakifs.cfg.data
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/425/trunk/cfgs/icosakifs.cfg.data/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/257/trunk/cfgs/icosakifs.cfg.data/fragment.glsl
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/143/trunk/cfgs/icosakifs.cfg.data/vertex.glsl
+END

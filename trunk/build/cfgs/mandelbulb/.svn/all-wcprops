@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/323/trunk/cfgs/mandelbulb
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/243/trunk/cfgs/mandelbulb/vertex.glsl
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/243/trunk/cfgs/mandelbulb/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/323/trunk/cfgs/mandelbulb/fragment.glsl
+END

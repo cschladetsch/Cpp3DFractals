@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/starnursery
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/starnursery/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/starnursery/fragment.glsl
+END

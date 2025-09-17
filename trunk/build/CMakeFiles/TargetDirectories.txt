@@ -1,0 +1,15 @@
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/AntTweakBar.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/boxplorer2.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/sdl2-test.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/shadershrink.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/edit-cfg.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/glsl.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/INSTALL.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/sdl_headers_copy.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/SDL2main.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/SDL2-static.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/uninstall.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/INSTALL.dir
+C:/Users/chris/local/repos/boxplorer2/trunk/build/_deps/sdl2-build/CMakeFiles/ALL_BUILD.dir

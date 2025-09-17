@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/TheMine
+END
+background.tga
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/TheMine/background.tga
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/TheMine/default.cfg
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/425/trunk/cfgs/shadertoy/TheMine/fragment.glsl
+END

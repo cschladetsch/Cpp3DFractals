@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/425/trunk/cfgs/rca
+END
+1rot-hships.rle
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/412/trunk/cfgs/rca/1rot-hships.rle
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/425/trunk/cfgs/rca/default.cfg
+END
+1rot-bomb.rle
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/416/trunk/cfgs/rca/1rot-bomb.rle
+END
+fragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/425/trunk/cfgs/rca/fragment.glsl
+END
+1rot-boink.rle
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/387/trunk/cfgs/rca/1rot-boink.rle
+END
+1rot-rand1.rle
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/390/trunk/cfgs/rca/1rot-rand1.rle
+END
+background.tga
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/391/trunk/cfgs/rca/background.tga
+END
+1rot-bigship.rle
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/423/trunk/cfgs/rca/1rot-bigship.rle
+END
+vertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/387/trunk/cfgs/rca/vertex.glsl
+END
+1rot-dships.rle
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/387/trunk/cfgs/rca/1rot-dships.rle
+END
+1rot-stable.rle
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/425/trunk/cfgs/rca/1rot-stable.rle
+END
