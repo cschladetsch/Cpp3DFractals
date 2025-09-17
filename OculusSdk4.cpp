@@ -30,13 +30,14 @@ int InitOculusSDK() {
   }
 
   ovrHmd_SetEnabledCaps(hmd,
-      ovrHmdCap_LowPersistence | ovrHmdCap_DynamicPrediction);
+                        ovrHmdCap_LowPersistence | ovrHmdCap_DynamicPrediction);
 
   ovrHmd_ConfigureTracking(hmd,
-      ovrTrackingCap_Orientation
-      | ovrTrackingCap_MagYawCorrection
-      | ovrTrackingCap_Position, 0);
-  
+                           ovrTrackingCap_Orientation |
+                               ovrTrackingCap_MagYawCorrection |
+                               ovrTrackingCap_Position,
+                           0);
+
   return 1;
 }
 
@@ -55,12 +56,13 @@ void GetOculusView(float view[3]) {
 
 bool GetOculusQuat(float quat[4]) {
   bool result = false;
-  ovrTrackingState ts = ovrHmd_GetTrackingState(hmd, 0.0/*ovr_GetTimeInSeconds()*/);
+  ovrTrackingState ts =
+      ovrHmd_GetTrackingState(hmd, 0.0 /*ovr_GetTimeInSeconds()*/);
   if (ts.StatusFlags & (ovrStatus_OrientationTracked)) {
     ovrPoseStatef poseState = ts.HeadPose;
     ovrPosef posef = poseState.ThePose;
     ovrQuatf q = posef.Orientation;
-  
+
     quat[0] = q.x;
     quat[1] = q.y;
     quat[2] = q.z;
@@ -80,8 +82,7 @@ bool GetOculusQuat(float quat[4]) {
   return result;
 }
 
-void ReleaseOculusSDK()
-{
+void ReleaseOculusSDK() {
   if (hmd) {
     ovrHmd_Destroy(hmd);
     hmd = NULL;
@@ -89,8 +90,7 @@ void ReleaseOculusSDK()
   ovr_Shutdown();
 }
 
-void SetOculusPrediction(float time) {
-}
+void SetOculusPrediction(float time) {}
 
 int GetOculusDeviceInfo(hmd_settings_t *hmd_settings) {
   hmd_settings->h_resolution = hmd->Resolution.w;
@@ -109,6 +109,4 @@ int GetOculusDeviceInfo(hmd_settings_t *hmd_settings) {
   return 1;
 }
 
-void ResetOculusOrientation() {
-  ovrHmd_RecenterPose(hmd);
-}
+void ResetOculusOrientation() { ovrHmd_RecenterPose(hmd); }

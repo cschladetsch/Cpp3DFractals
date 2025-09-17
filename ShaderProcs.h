@@ -6,34 +6,34 @@ bool enableShaderProcs(void);
 
 #ifdef HAVE_SDL2
 #define NO_SDL_GLEXT
-#include <SDL_opengl.h>
 #include <SDL.h>
+#include <SDL_opengl.h>
 #else
 // Fallback OpenGL headers when SDL2 is not available
 #ifdef _WIN32
-#include <windows.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
+#include <windows.h>
 #else
 #include <GL/gl.h>
-#include <GL/glu.h>
 #include <GL/glext.h>
+#include <GL/glu.h>
 #endif
 #endif
 
 #if (defined __APPLE__)
-  #include <OpenGL/glu.h>
-  #include <OpenGL/glext.h>
+#include <OpenGL/glext.h>
+#include <OpenGL/glu.h>
 #if !defined(GL_DECLARE_ONLY)
 #ifndef PFNGLUNIFORM1DPROC
 void (*glUniform1d)(int, double) = 0;
-void (*glUniform3dv)(int, int, double*) = 0;
+void (*glUniform3dv)(int, int, double *) = 0;
 #endif
-#endif  // GL_DECLARE_ONLY
- #elif (defined __WIN32__)
+#endif // GL_DECLARE_ONLY
+#elif (defined __WIN32__)
 #elif (defined __GNUC__)
-  #include <GL/glx.h>
-  #include <GL/glxext.h>
+#include <GL/glx.h>
+#include <GL/glxext.h>
 #else
 #error "Unknown target"
 #endif
@@ -93,8 +93,8 @@ DECLARE_GL_PROC(PFNGLFRAMEBUFFERRENDERBUFFERPROC, glFramebufferRenderbuffer);
 DECLARE_GL_PROC(PFNGLFRAMEBUFFERTEXTURE2DPROC, glFramebufferTexture2D);
 DECLARE_GL_PROC(PFNGLCHECKFRAMEBUFFERSTATUSPROC, glCheckFramebufferStatus);
 
-//DECLARE_GL_PROC(PFNGLFRAMEBUFFERTEXTURELAYERPROC, glFramebufferTextureLayer);
-//DECLARE_GL_PROC(PFNGLTEXSTORAGE3DPROC, glTexStorage3D);
+// DECLARE_GL_PROC(PFNGLFRAMEBUFFERTEXTURELAYERPROC, glFramebufferTextureLayer);
+// DECLARE_GL_PROC(PFNGLTEXSTORAGE3DPROC, glTexStorage3D);
 
 // glActiveTexture is provided by SDL2 when HAVE_SDL2 is defined
 #if defined(__WIN32__) && !defined(HAVE_SDL2)
@@ -103,7 +103,7 @@ DECLARE_GL_PROC(PFNGLACTIVETEXTUREPROC, glActiveTexture);
 
 #undef DECLARE_GL_PROC
 
-#endif  //!__APPLE__
+#endif //!__APPLE__
 
 #ifdef HAVE_SDL2
 // Declare the function pointer for SDL2 builds
@@ -120,10 +120,12 @@ PFNGLACTIVETEXTUREPROC glActiveTexture_proc = NULL;
 bool enableShaderProcs(void) {
 #ifndef __APPLE__
 
-#define IMPORT_GL_PROC(type, name) \
-  do { if (!(name = (type) SDL_GL_GetProcAddress(#name))) { \
-    fprintf(stderr, "failed to import function " #name "\n"); \
-  } } while (0)
+#define IMPORT_GL_PROC(type, name)                                             \
+  do {                                                                         \
+    if (!(name = (type)SDL_GL_GetProcAddress(#name))) {                        \
+      fprintf(stderr, "failed to import function " #name "\n");                \
+    }                                                                          \
+  } while (0)
 
   IMPORT_GL_PROC(PFNGLCREATEPROGRAMPROC, glCreateProgram);
   IMPORT_GL_PROC(PFNGLCREATESHADERPROC, glCreateShader);
@@ -155,7 +157,8 @@ bool enableShaderProcs(void) {
 
 #ifdef HAVE_SDL2
   // Load glActiveTexture function pointer for SDL2
-  glActiveTexture_proc = (PFNGLACTIVETEXTUREPROC) SDL_GL_GetProcAddress("glActiveTexture");
+  glActiveTexture_proc =
+      (PFNGLACTIVETEXTUREPROC)SDL_GL_GetProcAddress("glActiveTexture");
   if (!glActiveTexture_proc) {
     fprintf(stderr, "failed to import function glActiveTexture\n");
   }
@@ -173,8 +176,9 @@ bool enableShaderProcs(void) {
   IMPORT_GL_PROC(PFNGLFRAMEBUFFERTEXTURE2DPROC, glFramebufferTexture2D);
   IMPORT_GL_PROC(PFNGLCHECKFRAMEBUFFERSTATUSPROC, glCheckFramebufferStatus);
 
-  //IMPORT_GL_PROC(PFNGLFRAMEBUFFERTEXTURELAYERPROC, glFramebufferTextureLayer);
-  //IMPORT_GL_PROC(PFNGLTEXSTORAGE3DPROC, glTexStorage3D);
+  // IMPORT_GL_PROC(PFNGLFRAMEBUFFERTEXTURELAYERPROC,
+  // glFramebufferTextureLayer); IMPORT_GL_PROC(PFNGLTEXSTORAGE3DPROC,
+  // glTexStorage3D);
 
 // glActiveTexture is provided by SDL2 when HAVE_SDL2 is defined
 #if defined(__WIN32__) && !defined(HAVE_SDL2)
@@ -183,10 +187,10 @@ bool enableShaderProcs(void) {
 
 #undef IMPORT_GL_PROC
 
-#endif  // __APPLE__
+#endif // __APPLE__
 
   return true;
 }
-#endif  // GL_DECLARE_ONLY
+#endif // GL_DECLARE_ONLY
 
-#endif  // SHADER_PROCS_H
+#endif // SHADER_PROCS_H
