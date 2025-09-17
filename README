@@ -69,4 +69,3 @@ I added a couple sample configs, that include alternate fragment.glsl code to
 either change the box appearance or switch fractal entirely (bulb,
 menger,blend-menger).
 
--marius
