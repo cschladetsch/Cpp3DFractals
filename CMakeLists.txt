@@ -1,5 +1,5 @@
 ﻿cmake_minimum_required(VERSION 3.10)
-project(BoxPlorer2 LANGUAGES CXX C)
+project(3DFractals LANGUAGES CXX C)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 11)
@@ -162,7 +162,7 @@ if(SDL2_FOUND)
     )
 endif()
 
-# BoxPlorer2 core source files
+# core source files
 set(BOXPLORER2_SOURCES
     main.cpp
     Interpolate.cpp
@@ -192,7 +192,7 @@ endif()
 # Create AntTweakBar static library
 add_library(AntTweakBar STATIC ${ANTTWEAKBAR_SOURCES})
 
-# Main BoxPlorer2 executable
+# Main executable
 add_executable(boxplorer2 ${BOXPLORER2_SOURCES})
 target_link_libraries(boxplorer2 AntTweakBar ${OPENGL_LIBRARIES})
 

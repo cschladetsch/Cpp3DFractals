@@ -1,4 +1,4 @@
-﻿# Boxplorer2
+﻿# 3DFractals
 
 Boxplorer2 is a real-time Mandelbox and distance-estimator fractal explorer built with
 SDL2, OpenGL, and GLSL. It extends Jan Kadlec's Boxplorer 1.02 with Catmull-Rom
