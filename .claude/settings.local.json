@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake:*)",
+      "Bash(git lfs track:*)",
+      "Read(//c/Users/chris/local/repos/boxplorer2/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
