@@ -41,6 +41,9 @@ rendering, and a parameter editor powered by AntTweakBar.
 
 ```powershell
 # From the repository root
+
+📖 [Docs & diagrams](https://cschladetsch.github.io/Cpp3DFractals/)
+
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
 ```

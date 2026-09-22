@@ -1,0 +1,4 @@
+title: 3DFractals
+description: A real-time Mandelbox and distance-estimator fractal explorer built with SDL2, OpenGL, and GLSL, extending Jan Kadlec's Boxplorer 1.02 with Catmull-Rom keyframe splines, stereoscopic/panoramic capture, and a parameter editor powered by AntTweakBar.
+theme: null
+markdown: kramdown
